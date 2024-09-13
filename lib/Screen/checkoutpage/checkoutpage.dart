@@ -72,8 +72,7 @@ class CheckoutPage extends StatelessWidget {
 
                         cart.removeSelectedItems();
 
-                        Navigator.of(context)
-                            .popUntil((route) => route.isFirst);
+                        Navigator.pop(context);
                       },
                     ),
                   ],
