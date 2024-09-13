@@ -107,10 +107,6 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                           const SizedBox(height: 8),
                           Text(product.description),
                           const SizedBox(height: 16),
-                          // Text(
-                          //   'Category: ${product.category}',
-                          //   style: Theme.of(context).textTheme.titleMedium,
-                          // ),
                           Padding(
                             padding: const EdgeInsets.all(16.0),
                             child: ElevatedButton(

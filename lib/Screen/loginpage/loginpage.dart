@@ -1,5 +1,6 @@
 import 'package:e_commerce/Screen/DashboardPage/productPage.dart';
 import 'package:e_commerce/Screen/loginpage/app_title.dart';
+import 'package:e_commerce/Screen/widget/maincontainer.dart';
 import 'package:e_commerce/constant/prefs.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -101,7 +102,7 @@ class _LoginpageState extends State<Loginpage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => const ProductPage(),
+                                builder: (context) => const MainContainer(),
                               ));
                         },
                         disabledColor: Colors.grey,

@@ -1,4 +1,4 @@
-import 'package:e_commerce/Screen/widget/maincontainer.dart';
+import 'package:e_commerce/Screen/LoginPage/LoginPage.dart';
 import 'package:e_commerce/provider/cartprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MainContainer(),
+      home: const Loginpage(),
     );
   }
 }
